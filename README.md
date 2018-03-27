@@ -37,7 +37,7 @@ Above installation can also be simplified by using the following command:
 
 To use this package you need to prepare `HolidayProvider` for your country.
 It must implement `Msbytes\LaravelWorkdays\Contracts\HolidayProvider`. 
-There is [PlHolidayProvider](Msbytes\LaravelWorkdays\PlHolidayProvider.php) for Poland as an example. 
+There is [PlHolidayProvider](Msbytes/LaravelWorkdays/PlHolidayProvider.php) for Poland as an example. 
 
 Add workdays service provider to `app/config/app.php`.
 
