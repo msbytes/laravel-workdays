@@ -1,0 +1,22 @@
+{
+    "name": "msbytes/laravel-workdays",
+    "description": "Simple operations with working days for Laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcin Szlęk",
+            "email": "ms@msbytes.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "nesbot/carbon": "~1.18"
+    },
+    "autoload": {
+        "psr-0": {
+            "Msbytes\\LaravelWorkdays": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
