@@ -57,14 +57,14 @@ Easiest way is to just use provided `Workdays` facade.
 Before making any operation or if you want to change country you need to set holiday provider 
 for service.
 
-```
+```php
 $provider = new YourHolidayProvider();
 Workdays::setHolidayProvider($provider);
 ```
 
 Start using it (these examples are using holidays provider for Poland)
 
-```
+```php
 $check = Workdays::isWorkingDay('2018-03-27'); // true
 $deliveryDate = Workdays::addWorkingDays('2018-03-27', 4); // 2018-04-03
 $pastOrders = Workdays::substractWorkingDays('2018-03-27', 7); // 2018-03-16
